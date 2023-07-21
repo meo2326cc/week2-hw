@@ -1,0 +1,11 @@
+{
+  "name": "week2_hw",
+  "version": "1.0.0",
+  "description": "hw",
+  "main": "no",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meo",
+  "license": "ISC"
+}
