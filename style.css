@@ -1,0 +1,222 @@
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.navbox {
+  background-color: #000;
+  color: #D1D1D1;
+  font-size: 16px;
+}
+.navbox a {
+  color: #D1D1D1;
+}
+.navbox a:hover {
+  text-shadow: 0px 0px 5px #fff;
+}
+.navbox ul {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbox ul li {
+  max-width: 306px;
+}
+
+.banner {
+  background-color: #000;
+}
+.banner .flex {
+  display: flex;
+  align-items: center;
+}
+.banner .title h1 {
+  font-size: 64px;
+  color: #fff;
+}
+.banner .title h1 span {
+  color: #00FFA3;
+  font-size: 150px;
+}
+.banner .title button {
+  background-color: #fff;
+  color: #000;
+  border-radius: 32px;
+  font-size: 16px;
+  padding: 12px 24px;
+  display: block;
+  margin-left: auto;
+}
+.banner .title button span {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.banner .title button:hover {
+  box-shadow: 0px 0px 20px #fff;
+}
+
+.intro {
+  background-image: url("/img/sea.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 160px 0px;
+}
+.intro .text {
+  width: 526px;
+}
+.intro .text h3 {
+  font-size: 64px;
+}
+.intro .text p {
+  font-size: 24px;
+}
+
+.aboutMe {
+  margin: 160px auto;
+}
+.aboutMe ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 636px;
+  height: 328px;
+  margin-right: 134px;
+}
+.aboutMe ul li {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.aboutMe ul li h3 {
+  font-size: 20px;
+}
+.aboutMe ul li p {
+  font-size: 16px;
+}
+.aboutMe .text {
+  width: 526px;
+}
+.aboutMe .text h3 {
+  font-size: 64px;
+}
+.aboutMe .text p {
+  font-size: 24px;
+}
+
+.contactMe {
+  background: linear-gradient(#050014, #01021E);
+  color: #fff;
+  padding: 96px 0px;
+}
+.contactMe h3 {
+  font-size: 64px;
+}
+.contactMe span {
+  vertical-align: middle;
+  font-size: 64px;
+}
+.contactMe img {
+  width: 162px;
+  height: 162px;
+  margin-left: 20px;
+}
+.contactMe img:hover {
+  border-radius: 40px;
+  animation-name: hover01;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes hover01 {
+  to {
+    box-shadow: 0px 0px 12px rgba(144, 148, 255, 0.8980392157);
+  }
+}
+.contactMe .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects {
+  padding: 160px 0px;
+}
+.projects h3 {
+  width: 746px;
+  font-size: 64px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+}
+.projects img {
+  width: 416px;
+}
+.projects .more {
+  width: 856px;
+}
+.projects .more button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 32px;
+  padding: 12px 24px;
+  margin-top: 76px;
+}
+.projects .more button span {
+  vertical-align: middle;
+}
+.projects .more button:hover {
+  box-shadow: 0px 0px 20px #fff;
+}
+.projects .rectangle img {
+  width: 306px;
+}
+.projects .rectangle .w526 {
+  width: 526px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0px;
+}
+.footer p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
